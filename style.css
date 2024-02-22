@@ -1,0 +1,106 @@
+body
+{
+    background-size: cover;
+   
+}
+table{
+    width: 100%;
+}
+td,tr{
+    border: 2px solid rgb(255, 255, 255);
+    border-collapse: separate;
+    border-radius: 10px;
+
+}
+table caption{
+    font-size: 40px;
+    text-shadow: 3px 3px rgb(252, 242, 242);
+}
+
+
+img{
+    width: 120px;
+    height: 120px;
+}
+
+td:hover{
+background-color: rgb(255, 255, 255);
+border: 2px solid black;
+
+
+}
+
+
+.im{
+    width:30%;
+    
+}
+
+.container
+{
+    display: flex;
+}
+.name
+{
+    display: grid;
+    width: 30%;
+    align-items:center ;
+    text-align: center;
+    color: rgb(121, 52, 63);
+
+}
+.image
+{
+    width: 60%;
+}
+
+.heading
+{
+    width: 100%;
+}
+.info{
+    width: 30%;
+}
+li{
+    font-size: 18px;
+    color: purple;
+}
+h2,table caption{
+    position: relative;
+    margin-bottom: 30px;
+    animation: movetext 6s infinite alternate;
+    
+
+}
+@keyframes  movetext{
+    0%{
+        transform:translateX(0px);
+
+
+    }
+ 
+    100%{
+       transform: translateX(40px);
+    }
+}
+h3{
+font-size: 18px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color:blue
+}
+th{
+    font-size: 25px;
+    text-shadow: 2px 2px white;
+}
+
+.logo{
+    margin-top: 2px;
+    width: 25px;
+    height: 25px;
+}
